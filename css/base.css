@@ -165,7 +165,7 @@ font-weight: 700;
     position: relative;
 }
 .list-item::before {
-    content:url(/images/icons/galochka.svg);
+    content:url(images/icons/galochka.svg);
     position: absolute;
     left:0;
     top: 50%;
@@ -209,7 +209,7 @@ font-weight: 700;
     right: 0;
     top: 50%;
     transform: translateY(-65%);
-    content: url("/images/icons/Vector.svg");
+    content: url("images/icons/Vector.svg");
 }
 
 .header__top-btn-box {
@@ -243,7 +243,7 @@ font-weight: 700;
 .header__bottom-inner {
     
     display: flex;
-    background: url("/images/icons/bg.svg") no-repeat;
+    background: url("images/icons/bg.svg") no-repeat;
     background-position: 100% 40%;
 }
 .header__title {
