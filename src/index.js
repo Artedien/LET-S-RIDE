@@ -15,10 +15,24 @@ window.addEventListener('DOMContentLoaded', () => {
     try {
         headerDropdown();
     } catch {}
-    try {
-        modal();
-    } catch {}
-});
+try {
+    modal();
+} catch {}
+try {
+    wowAnim() 
+} catch {}
+    });
 
+import 'animate.css';
+import WOW from 'wow.js';
 
-
+function wowAnim() {
+    const wow = new WOW({
+      boxClass: 'wow',
+      animateClass: 'animate__animated',
+      offset: 150,
+      mobile: true,
+      live: true
+    });
+    wow.init();
+  }

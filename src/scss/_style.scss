@@ -67,30 +67,31 @@ section {
 
 .small_text {
   color: #42454a;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
 .title {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 700;
 }
 
 .desc {
   color: #42454a;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
 }
 
 .list {
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 5.5rem;
 }
 
 .list-item {
-  padding-left: 68px;
+  padding-left: 6.8rem;
   position: relative;
+  font-size: 2rem;
 }
 .list-item::before {
   content: "";
@@ -99,8 +100,9 @@ section {
   top: 50%;
   transform: translateY(-50%);
   background-image: url("./assets/images/icons/galochka.svg");
-  width: 49px;
-  height: 49px;
+  width: 4.9rem;
+  height: 4.9rem;
+  
 }
 
 @import './ui/ui';

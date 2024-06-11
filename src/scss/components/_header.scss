@@ -263,7 +263,7 @@
         width: 100%;
         height: 100%;
         & img {
-            object-fit: cover;
+            object-fit: contain;
             width: 100%;
             height: 100%;
         }
@@ -386,7 +386,7 @@
         border-radius: 0.4px;
         background: #42454a;
         padding: 1.4rem 2.6rem;
-        transition: 0.3s;
+        transition: box-shadow 0.3s;
         &:hover{
             box-shadow: 0 1.2rem 2.5rem -1rem rgba(66, 69, 74, 0.7);
         }

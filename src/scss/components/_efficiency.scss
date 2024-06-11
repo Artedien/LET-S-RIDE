@@ -1,0 +1,49 @@
+.efficiency {
+
+    // .efficiency_desc
+
+    &_desc {
+    }
+
+    // .efficiency__inner
+
+    &__inner {
+    }
+
+    // .efficiency__header
+
+    &__header {
+    }
+
+    // .efficiency__title
+
+    &__title {
+    }
+
+    // .efficiency__content
+
+    &__content {
+    }
+
+    // .efficiency__image-box
+
+    &__image-box {
+        position:relative;
+        &::after{
+            content:'';
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            box-shadow: inset 0px 0px 3rem 40px white;
+        }
+       
+
+    }
+
+    // .efficiency__img
+
+    &__img {
+    }
+}
+
