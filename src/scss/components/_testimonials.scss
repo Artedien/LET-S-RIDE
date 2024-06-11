@@ -1,0 +1,134 @@
+.testimonials {
+
+    // .testimonials__container
+
+    &__container {
+        padding-bottom: 12.1rem;
+    }
+
+    // .testimonials__inner
+
+    &__inner {
+    }
+
+    // .testimonials__header
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.4rem;
+        
+    }
+
+    // .testimonials__title
+
+    &__title {
+        padding-bottom: 4.1rem;
+    }
+
+    // .testimonials__card-box
+
+    &__card-box {
+        display: flex;
+        justify-content: center;
+        gap: 3.6rem;
+        padding-bottom: 4.3rem;
+    }
+
+    // .testimonials__card
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 36rem;
+        height: 36.6rem;
+        border: 1px solid #d8d8d8;
+        padding: 5.3rem 2.2rem;
+        &:hover {
+            transition: all 0.5s;
+            border: 1px solid transparent;
+            box-shadow: 0 0.2rem 0.3rem 0
+                    rgba(49, 49, 49, 0.02),
+                0 2rem 1.3rem 0 rgba(49, 49, 49, 0.05),
+                0 3.85rem 2.55rem 0 rgba(49, 49, 49, 0.06);
+        }
+    }
+
+    // .testimonials__stars
+
+    &__stars {
+        padding-bottom: 1.2rem;
+
+    }
+
+    // .testimonials__desc
+
+    &__desc {
+        font-size: 2rem;
+        max-width: 30.4rem;
+        line-height: 140%;
+        padding-bottom: 4.7rem;
+        text-align: center;
+    }
+
+    // .testimonials__card-employee
+
+    &__card-employee {
+        display: flex;
+        gap: 2rem;
+    }
+
+    // .testimonials__card-employee-img
+
+    &__card-employee-img {
+    }
+
+    // .testimonials__card-desc-box
+
+    &__card-desc-box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        justify-content: center;
+    }
+
+    // .testimonials__card-employee-name
+
+    &__card-employee-name {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    // .testimonials__card-employee-job
+
+    &__card-employee-job {
+        font-size: 1.4rem;
+    }
+
+    // .testimonials__control
+
+    &__control {
+        display: flex;
+        justify-content: center;
+        gap: 2.4rem;
+    }
+
+    // .testimonials__btn-arrow1
+
+    &__btn-arrow1 {
+    }
+
+    // .testimonials__btn-arrow2
+
+    &__btn-arrow2 {
+    }
+}
+.container {
+}
+.header {
+}
+.title {
+}
