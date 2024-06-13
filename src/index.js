@@ -21,6 +21,7 @@ try {
 try {
     wowAnim() 
 } catch {}
+
     });
 
 import 'animate.css';

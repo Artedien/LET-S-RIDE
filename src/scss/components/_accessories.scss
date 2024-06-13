@@ -36,7 +36,8 @@
     &__content {
         display: grid;
         grid-template-columns: 1fr 0.5fr 1fr;
-        gap: 13.2rem 1rem;
+        gap: 13.2rem 10rem;
+        padding: 0 0 5rem 0 ;
     }
 
     // .accessories__list-box

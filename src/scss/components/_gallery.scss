@@ -68,6 +68,9 @@
         height: 9.4rem;
         align-items: center;
         justify-content: center;
+        &:hover {
+            -webkit-animation: headShake 1s;
+            animation: headShake 1s;}
     }
 
     // .gallery__column-right
